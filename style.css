@@ -1,0 +1,124 @@
+body{
+    background-image: linear-gradient(155deg, rgb(235, 121, 182), rgb(71, 179, 196), rgb(231, 223, 119), rgb(97, 195, 180));
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center
+}
+
+/* título */
+h1{
+    color: rgb(125, 3, 80);
+    text-align: center;
+    font-size: 50px;
+    
+}
+
+.eu{
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+    margin-bottom: 30px;
+}
+
+/* texto principal */
+.sobremim{
+    background-color: rgb(125, 3, 80, 0.5);
+    font-size: 20px;
+    color: white;
+    border: 3px solid black;
+    margin: 0 auto;
+    padding: 15px;
+    text-align: justify;
+    width: 1300px;
+    margin-bottom: 150px;
+}
+
+h2{
+    color: rgb(125, 3, 80);
+    text-align: center;
+    font-size: 35px;
+}
+
+/* lista não ordenada */
+ul{
+    color: white;
+    line-height: 2.5;
+}
+
+/* imagem representativa do meu hobbie */
+#lol{
+    margin: 0 auto;
+    border-radius: 15px;
+    border: 3px solid black;
+    width: 600px;
+    height: 350px;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+
+/* criei essa div para criar um espaçamento maior e com facilidade de leitura para a mensagem do botão. */
+#botão{
+    margin-bottom: 300px;
+    margin-top: 200px;
+}
+
+#mensagem{
+    color: rgb(125, 3, 80);
+    margin-top: 50px;
+    font-size: 40px;
+}
+
+/* aqui eu defini a estilização padrão das 3 imagens da tabela usando a classe de nome imagem */
+.imagem{
+    margin: 0 auto;
+    width: 600px;
+    height: 350px;
+    border-radius: 15px;
+    border: 3px solid black;
+    margin: 15px;
+}
+
+/* tabela com 3 países, aqui defini um padrão de margem e borda */
+table, th, td{
+    border: solid 3px black;
+    margin: 0 auto;
+}
+
+table{
+    border-collapse: collapse; /* as bordas estavam ficando duplas, então adicionei esse comando para juntar as bordas e dar uma melhor visualização*/
+    color: white;
+}
+
+th, td{
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+    width: 120px;
+}
+
+th{
+    background-color: rgb(125, 3, 80);
+    color: rgb(255, 255, 255);
+}
+
+/* criei essa id para dar uma cor diferente aos nomes dos países */
+#cor{
+    color: rgb(125, 3, 80);
+    text-decoration-line: underline;
+}
+
+ /* criei essa div para dar uma espaçamento maior entre o link e a borda final da pag */
+.link{
+    text-align: center;
+    margin: 40px;
+    padding: 10px;
+}
+
+/* estilização do link com direcionamento para uma outra página e ação ao passar o mouse */
+a{
+    color: rgb(56, 107, 227);
+    font-size: 30px;
+}
+
+a:hover{
+    color: yellow;
+}
